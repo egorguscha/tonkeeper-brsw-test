@@ -23,7 +23,7 @@ function App() {
     if (tonconnectUi) {
       return tonconnectUi.onStatusChange(setWallet);
     }
-  }, [tonconnectUi]);
+  }, []);
 
   return (
     <div>
